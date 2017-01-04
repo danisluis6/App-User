@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.example.enclaveit.appuser.utils.Font;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                  * @solve2: At here, We declare a method and call it to excute.
                  * @Tasks1:
                  */
+                loginAccount();
             }
         });
 
@@ -37,9 +41,30 @@ public class MainActivity extends AppCompatActivity {
                 /**
                  * @description: We create call SignUpActivity.java and receive resulf of return from
                  * Class SignUpActivity by StartActivityForResult().
+                 * @Task2:
                  */
             }
         });
+    }
+
+    private void loginAccount() {
+
+        if (!LoginValidate()){
+            onLoginFail();
+        }
+    }
+
+    private void onLoginFail() {
+        Toast.makeText(MainActivity.this,"Login successfully!",Toast.LENGTH_LONG).show();
+        login.setEnabled(true);
+    }
+
+    private boolean LoginValidate() {
+        boolean valid = true;
+        String txtEmail = String.valueOf(email.getText());
+        String txtPassword = String.valueOf(pass.getText());
+        if(txtEmail.isEmpty() || txtEmail.)
+        return valid;
     }
 
     private void initComponents() {

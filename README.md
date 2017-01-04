@@ -13,21 +13,27 @@
   - [Version1](#version1)
 
 ##Task
-
+  + We need to analysis code to find direction intelligent for programming.
+- [Solution]
+  - [One](#one)
+  - [Two](#two)
+  
 ##Version1
 <p align="center">
-  <span>Do you understand about LinearLayout or RelativeLayout</span>
   <img src="https://github.com/danisluis6/App-User/blob/version1/SourceCode/1.png">
 </p>
 
 <p align="center">
-  <span>Do you understand about LinearLayout or RelativeLayout</span>
   <img src="https://github.com/danisluis6/App-User/blob/version1/SourceCode/2.png">
 </p>
 
 <p align="center">
-  <span>Do you understand about LinearLayout or RelativeLayout</span>
   <img src="https://github.com/danisluis6/App-User/blob/version1/SourceCode/3.png">
+</p>
+
+##One
+<p align="center">
+  <img src="https://github.com/danisluis6/App-User/blob/version1/SourceCode/a1.png">
 </p>
 
 

@@ -1,4 +1,4 @@
-package com.example.enclaveit.appuser;
+package com.example.enclaveit.appuser.utils;
 
 import android.content.Context;
 import android.graphics.Typeface;
