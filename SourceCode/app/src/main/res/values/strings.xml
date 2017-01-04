@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Manager Application User</string>
     <string name="email">Email</string>
-    <string name="pass">Password!</string>
+    <string name="pass">Password</string>
 </resources>

@@ -12,14 +12,23 @@
   - [Analysis](#analysis)
   - [Version1](#version1)
 
-  => Popup: Definition Menu And Initialize Event on Any Widget to call Popup and show
-  => Toolbar: Definition Toolbar and Using include to set position toolbar in main layout.
-
 ##Analysis
 
 ##Version1
 <p align="center">
   <span>Do you understand about LinearLayout or RelativeLayout</span>
-  <img src="https://github.com/danisluis6/Researching-Widget-GridView/blob/version2/GridView/1.png">
+  <img src="https://github.com/danisluis6/App-User/blob/version1/SourceCode/1.png">
 </p>
+
+<p align="center">
+  <span>Do you understand about LinearLayout or RelativeLayout</span>
+  <img src="https://github.com/danisluis6/App-User/blob/version1/SourceCode/2.png">
+</p>
+
+<p align="center">
+  <span>Do you understand about LinearLayout or RelativeLayout</span>
+  <img src="https://github.com/danisluis6/App-User/blob/version1/SourceCode/3.png">
+</p>
+
+
 
