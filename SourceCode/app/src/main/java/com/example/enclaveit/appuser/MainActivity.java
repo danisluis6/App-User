@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
                 /**
                  * @description: We create a function call "login" and definition how to get data from
                  * form android and process "login successfully" or "login fail".
+                 * @solve1: At here, We writting code
+                 * @solve2: At here, We declare a method and call it to excute.
+                 * @Tasks1:
                  */
             }
         });

@@ -1,5 +1,5 @@
-# Researching-Widget-Android
-# WELCOME YOU RESEARCHING ANDROID TUTORIAL [![Build Status](https://travis-ci.org/nomensa/jquery.hide-show.svg)](https://travis-ci.org/nomensa/jquery.hide-show.svg?branch=master)
+
+# TEMPLATE LOGIN ANDROID STUDIO [DIVIDER TASK] [![Build Status](https://travis-ci.org/nomensa/jquery.hide-show.svg)](https://travis-ci.org/nomensa/jquery.hide-show.svg?branch=master)
 
 # Read more: http://www.androidhive.info/2012/02/android-custom-listview-with-image-and-text/
 
@@ -9,10 +9,10 @@
 > Address: VietNam
 
 - [GridView](#gridview)
-  - [Analysis](#analysis)
+  - [Tasks](#tasks)
   - [Version1](#version1)
 
-##Analysis
+##Task
 
 ##Version1
 <p align="center">
