@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText email,pass;
     private Button login;
     private TextView signup;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,13 +25,6 @@ public class MainActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /**
-                 * @description: We create a function call "login" and definition how to get data from
-                 * form android and process "login successfully" or "login fail".
-                 * @solve1: At here, We writting code
-                 * @solve2: At here, We declare a method and call it to excute.
-                 * @Tasks1:
-                 */
                 loginAccount();
             }
         });
@@ -49,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void loginAccount() {
 
-        if (!LoginValidate()){
+        if (!onLoginValidate()){
             onLoginFail();
         }
     }
@@ -59,11 +53,13 @@ public class MainActivity extends AppCompatActivity {
         login.setEnabled(true);
     }
 
-    private boolean LoginValidate() {
+    private boolean onLoginValidate() {
         boolean valid = true;
         String txtEmail = String.valueOf(email.getText());
         String txtPassword = String.valueOf(pass.getText());
-        if(txtEmail.isEmpty() || txtEmail.)
+        if(txtEmail.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(txtEmail).matches()) {
+            valid = false;
+        }
         return valid;
     }
 
